@@ -1,0 +1,9 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+  padding: 15px;
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
